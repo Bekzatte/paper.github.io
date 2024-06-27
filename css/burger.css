@@ -24,10 +24,11 @@
 		.header__wrapper-bottom {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
-			column-gap: 200px;
+			column-gap: 100px;
 		}
 		.header__nav{
-			display: block;
+			display: flex;
+			justify-content: center;
 			position: absolute;
 			left: -482px;
 			top: 50px;
