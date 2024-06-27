@@ -392,6 +392,14 @@
 
 
 @media (max-width: 500px) {
+/* HERO */
+	.hero {
+		background-image: none;
+	}
+	.hero__text {
+		max-width: 100%;
+	}
+	
 /* RESULTS */
 	.results__container {
 		flex-wrap: wrap;
